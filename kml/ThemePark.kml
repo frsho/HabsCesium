@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ThemePark.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffff55ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>ffff55ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>保留</name>
+		<open>1</open>
+		<Placemark>
+			<name>ディズニーランド</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							139.8884704706325,35.62977253257667,0 139.8909142886171,35.63225609472912,0 139.8873067827815,35.63449542851515,0 139.8772181907076,35.6382504960873,0 139.8758358400025,35.63761421848727,0 139.8727640914959,35.6329322881276,0 139.8732221785919,35.6258410705935,0 139.888379629251,35.62238383617161,0 139.8926110927962,35.62611018224455,0 139.8884704706325,35.62977253257667,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>豊島園</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							139.6465182746085,35.74261012527329,0 139.647143573983,35.74343705340632,0 139.6466441252386,35.74418958722772,0 139.646357672157,35.74494648052563,0 139.6470126755652,35.74554389219991,0 139.6470416116096,35.74644221877366,0 139.6452829740678,35.74703632798928,0 139.6445211277313,35.74680168048838,0 139.6443500964442,35.74635065705095,0 139.6437503267557,35.74624270043899,0 139.6432958854346,35.74706793086914,0 139.6412973529934,35.74650008165506,0 139.6410530174483,35.74602810344567,0 139.6411906754216,35.74574432985562,0 139.6425943590571,35.74559471913678,0 139.6421589344692,35.74373408895431,0 139.6461188003934,35.74262267739014,0 139.6465182746085,35.74261012527329,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>東京ドームシティー</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							139.7541738939364,35.70584762637326,0 139.7538259082916,35.70679792737746,0 139.7520217802726,35.70705963977722,0 139.7510185936791,35.7068747412323,0 139.7506267572846,35.70516921041606,0 139.7513519863551,35.70461502177228,0 139.7510464342971,35.70326281360825,0 139.7551990024143,35.70266452176636,0 139.7541738939364,35.70584762637326,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>花やしき</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							139.793799197894,35.71537815603244,0 139.7950269748986,35.71517321731535,0 139.7952472203001,35.71539861467156,0 139.7949818614594,35.71576085350455,0 139.7950449755671,35.71586363605168,0 139.7948181147614,35.7158955469817,0 139.7941225086356,35.71556568275739,0 139.793799197894,35.71537815603244,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
